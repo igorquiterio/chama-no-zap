@@ -50,7 +50,7 @@ export default function Home() {
 						<Button
 							key={number}
 							variant={"outline"}
-							className="h-20 w-24 text-2xl"
+							className="h-20 w-20 text-2xl"
 							onClick={() => _setPhoneNumberr(_phoneNumber + number)}
 						>
 							{number}
@@ -58,7 +58,7 @@ export default function Home() {
 					))}
 					<Button
 						variant={"outline"}
-						className="h-20 w-24"
+						className="h-20 w-20"
 						onClick={() => _setPhoneNumberr(_phoneNumber.slice(0, -1))}
 					>
 						<Delete className="size-7" />
@@ -67,7 +67,7 @@ export default function Home() {
 					<Button
 						key={0}
 						variant={"outline"}
-						className="h-20 w-52 text-2xl"
+						className="h-20 w-44 text-2xl"
 						onClick={() => _setPhoneNumberr(_phoneNumber + 0)}
 					>
 						{0}
