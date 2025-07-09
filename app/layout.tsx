@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
 	title: "🔥 no zapi",
 	description:
-		"Website para direcionar numeros de telefone para conversas no whatsapp sem precisar de salvar o contato",
+		"Site para transformar números de telefone em conversas no WhatsApp sem precisar salvar o contato.",
 };
 
 export default function RootLayout({
