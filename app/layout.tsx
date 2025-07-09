@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "🔥 no zap",
+	title: "🔥 no zapi",
 	description:
 		"Website para direcionar numeros de telefone para conversas no whatsapp sem precisar de salvar o contato",
 };
