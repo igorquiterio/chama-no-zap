@@ -7,7 +7,7 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
-import { Delete, Plus, Send } from "lucide-react";
+import { Delete, Send } from "lucide-react";
 import { redirect } from "next/navigation";
 import React from "react";
 
@@ -58,17 +58,10 @@ export default function Home() {
 					))}
 					<Button
 						variant={"outline"}
-						className="h-20 w-24"
+						className="h-20 w-52"
 						onClick={() => _setPhoneNumberr(_phoneNumber.slice(0, -1))}
 					>
 						<Delete className="size-7" />
-					</Button>
-					<Button
-						variant={"outline"}
-						className="h-20 w-24"
-						onClick={() => _setPhoneNumberr(`${_phoneNumber}+`)}
-					>
-						<Plus className="size-7" />
 					</Button>
 
 					<Button
